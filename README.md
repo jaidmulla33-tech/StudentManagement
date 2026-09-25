@@ -127,10 +127,9 @@ Enter your choice:
 
 ---
 
-##  Application Architecture
+##  Application Architecture  
 
-```
-Main.java → Student (model) → StudentDAO → JDBC → MySQL Database
+[Architecture Diagram](docs/project-architecture.png)
 ```
 
 The DAO layer isolates database-related operations, keeping the codebase organized and easier to maintain.
